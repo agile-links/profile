@@ -1,14 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Profile</title>
-  </head>
-  <body>
-    <main>
-      <h1>Profile</h1>
-      <p>This site is published with GitHub Pages.</p>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>agile-links — Freelance Software Solutions</title>
+
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --text: #1a1a1a;
+      --subtle: #555;
+      --accent: #0066ff;
+      --card-bg: #ffffff;
+      --radius: 14px;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 120px 20px 100px;
+      text-align: center;
+      background: linear-gradient(135deg, #ffffff, #eef3ff);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: var(--subtle);
+      max-width: 650px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .cta {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 14px 28px;
+      background: var(--accent);
+      color: white;
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .cta:hover {
+      opacity: 0.85;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 28px;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <h1>agile-links</h1>
+    <p>Freelance software solutions specialising in Java & Python engineering, modern website design, data interoperability, and edge AI systems.</p>
+    <a class="cta" href="mailto:your@email.com">Start a Project</a>
+  </section>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>Java & Python based software solutions</li>
+        <li>Modern, responsive website design</li>
+        <li>Data interoperability & system integration</li>
+        <li>Edge AI development & deployment</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Tech Stack</h2>
+      <p>Java • Python • TypeScript • Node.js • Azure • Docker • PostgreSQL • Redis • Edge AI toolchains</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/agile-links">github.com/agile-links</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 agile-links — Freelance Software Solutions
+  </div>
+
+</body>
 </html>
